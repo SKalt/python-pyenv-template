@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "TODO"
+version = "0.0.0"
+description = "TODO"
+authors = ["Steven Kalt <kalt.steven@gmail.com>"]
+license = "TODO"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+mypy = "*"
+flake8 = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+[tool.isort]
