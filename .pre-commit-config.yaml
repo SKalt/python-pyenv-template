@@ -10,11 +10,7 @@ repos:
     - id: check-added-large-files
 - repo: https://github.com/charliermarsh/ruff-pre-commit
   # Ruff version.
-  rev: 'v0.0.261'
+  rev: 'v0.0.286'
   hooks:
     - id: ruff
-- repo: https://github.com/psf/black
-  rev: '23.3.0'
-  hooks:
-    - id: 'black'
-    - id: 'black-jupyter'
+# TODO: add a mypy typechecking hook

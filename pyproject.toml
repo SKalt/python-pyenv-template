@@ -9,14 +9,12 @@ license = "TODO"
 python = "^3.11"
 
 [tool.poetry.dev-dependencies]
-black = "^23.3.0"
 mypy = "*"
-flake8 = "*"
-isort = "*"
+ruff = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.black]
-[tool.isort]
+[tool.ruff]
+target-version = "py311"
