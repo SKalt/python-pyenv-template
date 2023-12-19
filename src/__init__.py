@@ -1,2 +1,2 @@
 def foo() -> int:
-    return "bar"
+    return "bar"  
